@@ -5,10 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Customer Service Demo</title>
   <style>
-    * {
+    #app *,
+    #app {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+    }
+
+    /* Ensure easemob widget is visible */
+    .easemobim-minimized {
+      z-index: 99999 !important;
+      display: block !important;
+    }
+
+    div.easemobim-iframe-shadow {
+      z-index: 99998 !important;
     }
 
     body {
